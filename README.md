@@ -77,11 +77,6 @@ A multimodal benchmark and research platform for contact-rich robotic manipulati
 ## GitHub Signal
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=fengzheng-kite&theme=default" alt="Shenrui's GitHub statistics" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=fengzheng-kite&theme=default" alt="Most used languages" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fengzheng-kite&bg_color=FFFEFA&color=D45D8C&line=65CFF0&point=FFB84D&area=true&area_color=DDF5FC&hide_border=false&border_color=DCE5EE" width="96%" alt="Contribution activity graph" />
 </div>
 
