@@ -11,29 +11,55 @@
     <text x="68" y="137" fill="#526071" font-size="21">Embodied AI · Robot Learning · Multimodal Intelligence</text>
     <text x="68" y="181" fill="#788596" font-size="16">I build robots that can move, feel, and learn.</text>
     <g font-size="14" font-weight="600">
-      <rect x="68" y="213" width="137" height="34" rx="17" fill="#FFE7F2"/><text x="136" y="235" text-anchor="middle" fill="#B84679">Tactile Vision</text>
-      <rect x="216" y="213" width="123" height="34" rx="17" fill="#E2F5FF"/><text x="277" y="235" text-anchor="middle" fill="#287DA5">VLA Models</text>
+      <rect x="68" y="213" width="137" height="34" rx="17" fill="#FFE7F2"/><text x="136" y="235" text-anchor="middle" fill="#B84679">World Model</text>
+      <rect x="216" y="213" width="123" height="34" rx="17" fill="#E2F5FF"/><text x="277" y="235" text-anchor="middle" fill="#287DA5">VLA Model</text>
       <rect x="350" y="213" width="122" height="34" rx="17" fill="#E7F8EA"/><text x="411" y="235" text-anchor="middle" fill="#38815A">Sim-to-Real</text>
     </g>
-    <text x="69" y="283" fill="#A0A9B5" font-size="12" letter-spacing="2">CUHK-SHENZHEN · SHENZHEN, CHINA</text>
+    <text x="69" y="283" fill="#A0A9B5" font-size="12" letter-spacing="2">CUHK-SHENZHEN</text>
   </g>
-  <g transform="translate(820 48)" fill="none" stroke="#344155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="112" cy="179" rx="89" ry="14" fill="#DCECF4" stroke="none" opacity=".65"/>
-    <path d="M70 61Q58 40 40 51Q29 59 39 79" fill="#FFE9F2"/>
-    <path d="M154 61Q166 40 184 51Q195 59 185 79" fill="#E5F7FF"/>
-    <rect x="46" y="57" width="132" height="102" rx="43" fill="#FFFFFF"/>
-    <rect x="61" y="75" width="102" height="62" rx="28" fill="#3D5368" stroke="#344155" stroke-width="3"/>
-    <path d="M83 103q7-12 14 0M127 103q7-12 14 0" stroke="#7EE5FF" stroke-width="5"/>
-    <path d="M101 118q11 8 22 0" stroke="#FF9DC3" stroke-width="4"/>
-    <path d="M82 159v17M142 159v17"/>
-    <path d="M68 176h28M128 176h28"/>
-    <path d="M47 105Q27 108 18 126Q13 138 22 146Q31 152 38 142L48 126" fill="#FFFFFF"/>
-    <path d="M178 105Q197 94 204 76M204 76l-3-17M204 76l15-8M204 76l14 9" fill="#FFFFFF"/>
-    <path d="M101 57V39"/>
-    <circle cx="101" cy="32" r="7" fill="#FFD95E"/>
-    <circle cx="76" cy="149" r="5" fill="#FF9DC3" stroke="none"/><circle cx="148" cy="149" r="5" fill="#72DDF8" stroke="none"/>
-    <path d="M222 40l7-13 7 13 13 7-13 7-7 13-7-13-13-7z" fill="#FFE47F" stroke="#E6B836" stroke-width="2">
-      <animateTransform attributeName="transform" type="rotate" values="0 229 47;15 229 47;0 229 47" dur="2s" repeatCount="indefinite"/>
+  <g transform="translate(810 25)" fill="none" stroke="#344155" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="142" cy="247" rx="106" ry="14" fill="#DCECF4" stroke="none" opacity=".62"/>
+
+    <!-- Friendly wheeled base -->
+    <path d="M56 177Q62 147 95 139H183Q216 147 224 177L231 214Q230 235 205 239H76Q49 235 49 214Z" fill="#FFFFFF"/>
+    <path d="M190 144Q215 152 222 179L225 196H190Q181 175 190 144Z" fill="#BFEFD9" stroke="none"/>
+    <path d="M68 180Q72 157 99 154H172Q194 157 201 180V207H68Z" fill="#F8FCFE" stroke="none"/>
+    <rect x="78" y="169" width="111" height="51" rx="25" fill="#344B61" stroke="#344155" stroke-width="3"/>
+    <path d="M102 192q7-12 14 0M151 192q7-12 14 0" stroke="#71E1F2" stroke-width="5"/>
+    <path d="M126 205q9 7 18 0" stroke="#FF9DC3" stroke-width="3.5"/>
+    <circle cx="82" cy="225" r="5" fill="#FFD95E" stroke="none"/>
+    <circle cx="197" cy="225" r="5" fill="#75D9F3" stroke="none"/>
+
+    <!-- Wheels -->
+    <circle cx="78" cy="235" r="18" fill="#3F566D"/>
+    <circle cx="78" cy="235" r="9" fill="#CDEBFA"/>
+    <circle cx="201" cy="235" r="18" fill="#3F566D"/>
+    <circle cx="201" cy="235" r="9" fill="#CDEBFA"/>
+
+    <!-- Shoulder turntable -->
+    <ellipse cx="137" cy="143" rx="43" ry="17" fill="#E7F5FB"/>
+    <ellipse cx="137" cy="137" rx="34" ry="13" fill="#FFFFFF"/>
+    <circle cx="137" cy="137" r="15" fill="#9DCEF1"/>
+
+    <!-- Two-link arm -->
+    <path d="M127 133L101 86Q96 76 104 68L116 58Q126 52 134 62L158 111Q163 122 154 130L143 138Q133 143 127 133Z" fill="#FFFFFF"/>
+    <path d="M110 91L128 78L148 117L132 130Z" fill="#A9D5F5" stroke="none"/>
+    <circle cx="112" cy="72" r="17" fill="#FFFFFF"/>
+    <circle cx="112" cy="72" r="9" fill="#9DCEF1"/>
+    <path d="M102 65L69 47Q59 41 61 30L64 17Q67 7 78 10L124 44Q134 51 126 61L120 68Q113 75 102 65Z" fill="#FFFFFF"/>
+    <path d="M69 47L78 28L117 54L107 67Z" fill="#A9D5F5" stroke="none"/>
+
+    <!-- Soft two-finger gripper -->
+    <circle cx="70" cy="29" r="13" fill="#FFFFFF"/>
+    <path d="M62 23Q43 1 36 10Q30 17 46 37Q52 43 60 36" fill="#C8F0DE"/>
+    <path d="M76 22Q92-3 100 5Q108 13 89 35Q82 42 74 35" fill="#C8F0DE"/>
+    <path d="M48 49q-12 9-20 0M51 57q-11 13-23 8" stroke="#65CFF0" stroke-width="2.5">
+      <animate attributeName="opacity" values=".25;1;.25" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Sparkle -->
+    <path d="M240 72l7-14 7 14 14 7-14 7-7 14-7-14-14-7z" fill="#FFE47F" stroke="#E6B836" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="0 247 79;14 247 79;0 247 79" dur="2s" repeatCount="indefinite"/>
     </path>
   </g>
   <g fill="none" stroke="#FF8EBB" stroke-width="3" stroke-linecap="round">
