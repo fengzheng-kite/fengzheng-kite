@@ -21,6 +21,12 @@ shenrui = {
 }
 ```
 
+## Creative Playground
+
+Beyond research, I occasionally ship small, curious projects - tiny tools, playful prototypes, and fresh experiments inspired by everyday ideas.
+
+> In the age of AI, every spark of inspiration deserves a fast path from idea to reality.
+
 ## Research Orbit
 
 <table>
