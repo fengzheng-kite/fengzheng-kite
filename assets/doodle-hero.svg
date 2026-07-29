@@ -1,0 +1,42 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#DDE7F2"/></pattern>
+    <filter id="paper"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#789" flood-opacity=".14"/></filter>
+  </defs>
+  <rect x="10" y="10" width="1180" height="310" rx="26" fill="#FFFEFA" stroke="#DCE5EE" filter="url(#paper)"/>
+  <rect x="10" y="10" width="1180" height="310" rx="26" fill="url(#dots)" opacity=".65"/>
+  <path d="M68 105Q190 111 326 104" stroke="#FFE06B" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="66" y="90" fill="#262D3D" font-size="46" font-weight="750">Hi, I'm Shenrui! 👋</text>
+    <text x="68" y="137" fill="#526071" font-size="21">Embodied AI · Robot Learning · Multimodal Intelligence</text>
+    <text x="68" y="181" fill="#788596" font-size="16">I build robots that can move, feel, and learn.</text>
+    <g font-size="14" font-weight="600">
+      <rect x="68" y="213" width="137" height="34" rx="17" fill="#FFE7F2"/><text x="136" y="235" text-anchor="middle" fill="#B84679">Tactile Vision</text>
+      <rect x="216" y="213" width="123" height="34" rx="17" fill="#E2F5FF"/><text x="277" y="235" text-anchor="middle" fill="#287DA5">VLA Models</text>
+      <rect x="350" y="213" width="122" height="34" rx="17" fill="#E7F8EA"/><text x="411" y="235" text-anchor="middle" fill="#38815A">Sim-to-Real</text>
+    </g>
+    <text x="69" y="283" fill="#A0A9B5" font-size="12" letter-spacing="2">CUHK-SHENZHEN · SHENZHEN, CHINA</text>
+  </g>
+  <g transform="translate(820 48)" fill="none" stroke="#344155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="112" cy="179" rx="89" ry="14" fill="#DCECF4" stroke="none" opacity=".65"/>
+    <path d="M70 61Q58 40 40 51Q29 59 39 79" fill="#FFE9F2"/>
+    <path d="M154 61Q166 40 184 51Q195 59 185 79" fill="#E5F7FF"/>
+    <rect x="46" y="57" width="132" height="102" rx="43" fill="#FFFFFF"/>
+    <rect x="61" y="75" width="102" height="62" rx="28" fill="#3D5368" stroke="#344155" stroke-width="3"/>
+    <path d="M83 103q7-12 14 0M127 103q7-12 14 0" stroke="#7EE5FF" stroke-width="5"/>
+    <path d="M101 118q11 8 22 0" stroke="#FF9DC3" stroke-width="4"/>
+    <path d="M82 159v17M142 159v17"/>
+    <path d="M68 176h28M128 176h28"/>
+    <path d="M47 105Q27 108 18 126Q13 138 22 146Q31 152 38 142L48 126" fill="#FFFFFF"/>
+    <path d="M178 105Q197 94 204 76M204 76l-3-17M204 76l15-8M204 76l14 9" fill="#FFFFFF"/>
+    <path d="M101 57V39"/>
+    <circle cx="101" cy="32" r="7" fill="#FFD95E"/>
+    <circle cx="76" cy="149" r="5" fill="#FF9DC3" stroke="none"/><circle cx="148" cy="149" r="5" fill="#72DDF8" stroke="none"/>
+    <path d="M222 40l7-13 7 13 13 7-13 7-7 13-7-13-13-7z" fill="#FFE47F" stroke="#E6B836" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="0 229 47;15 229 47;0 229 47" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="none" stroke="#FF8EBB" stroke-width="3" stroke-linecap="round">
+    <path d="M724 67q18-22 36 0q18 22 36 0"/><path d="M1019 255q18-22 36 0q18 22 36 0"/>
+  </g>
+</svg>
