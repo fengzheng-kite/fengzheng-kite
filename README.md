@@ -78,7 +78,7 @@ A multimodal benchmark and research platform for contact-rich robotic manipulati
 
 <div align="center">
   <img width="49%" src="assets/github-stats.svg" alt="Shenrui's GitHub statistics" />
-  <img width="49%" src="https://stats-card.pages.dev/lang?user=fengzheng-kite&layout=compact&color=526071&bgcolor=FFFEFA&hcolor=328BAD&bdcolor=DCE5EE&width=500&height=220&max_lang=8" alt="Shenrui's most used languages" />
+  <img width="49%" src="assets/github-languages.svg" alt="Shenrui's most used languages" />
 </div>
 
 <div align="center">
